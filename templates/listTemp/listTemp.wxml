@@ -1,0 +1,4 @@
+<template name='list'>
+    <view wx:for="{{ list }}" wx:key="{{index}}" class="test">姓名：{{ item.name }}
+年龄：{{ item.age }}</view>
+</template>

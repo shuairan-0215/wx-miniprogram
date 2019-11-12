@@ -1,0 +1,7 @@
+<!--components/listComp/listComp.wxml-->
+<view>
+    <view class="test" wx:for="{{list}}" wx:key="{{index}}">
+        姓名：{{item.name}}
+    </view>
+    <button type="primary" bindtap="sendMsg">点我向页面传递数据</button>
+</view>

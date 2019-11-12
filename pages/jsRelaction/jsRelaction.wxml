@@ -1,0 +1,14 @@
+<!--pages/jsRelaction/jsRelaction.wxml-->
+<!-- <view wx:for="{{ list }}" wx:key="{{index}}" >
+姓名：{{ item.name }}
+年龄：{{ item.age }}
+</view> -->
+<!-- 模板 -->
+<import src='/templates/listTemp/listTemp.wxml' />
+<template is="list" data="{{ list }}" ></template>
+
+<!-- 组件 -->
+<comp list="{{list}}" bindmyevent="componFunc"></comp>
+
+<view wx:if="{{ isShow }}">{{ name }}</view>
+<button bindtap="btn" >点击</button>

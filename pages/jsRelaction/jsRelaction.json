@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "comp":"/components/listComp/listComp"
+  },
+  "navigationBarTitleText": "js相关"
+}
